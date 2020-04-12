@@ -49,6 +49,8 @@ header
 	background-position: center;
 	padding: 250px 0 200px;
 	
+
+	
 	
 }
 
@@ -118,3 +120,32 @@ header
 	}
 	
 }
+
+
+
+
+
+
+
+.bannerab
+{
+    position: relative;
+	min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+    background-image: url("../images/LX header about us.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
