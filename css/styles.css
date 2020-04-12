@@ -67,7 +67,6 @@ header
 	margin: 1em 0 0;
 	padding: 0;
 	font-size: 1.2em;
-	
 	line-height: 1.5em;
 	color: #262626;
 }
@@ -92,15 +91,16 @@ header
 
 .navbar-light .navbar-toggler
 {
-	border: none 2px solid #7f7f7f; 
+	border: none ; 
 	color: #fff;
+	border: 2px solid #7f7f7f;
 	border-radius: 0;
 	outline: none;
 }
 
 .navbar-collapse
 {
-	background: #f0f1f3 ;
+	background: #f0f1f3;
 	
 }
 @media (max-width: 768px)	
