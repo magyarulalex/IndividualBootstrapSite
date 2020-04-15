@@ -105,6 +105,8 @@ header
 	background: #f0f1f3;
 	
 }
+bann {
+}
 @media (max-width: 768px)	
 {
 	
@@ -130,19 +132,96 @@ header
 .bannerab
 {
     position: relative;
-	min-height: 100vh;
+    min-height: 83vh;
     background-size: cover;
     background-position: center;
     padding: 250px 0 200px;
-    background-image: url("../images/LX header about us.png");
-		
+    background-image: url("../images/Screenshot 2020-04-15 at 7.55.38 AM.png");
+
 }
 
 
+.bannerabi
+{
+	position: relative;
+	background:url("../images/hiiii.png");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 250px 0 200px;
+	
+}
+
+.bannerabi h2
+{
+	margin: 0;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: 1000;
+	color: #262626;
+	text-transform: uppercase;
+}
+
+.bannerabi p
+{
+	margin: 1em 0 0;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #262626;
+}
 
 
+#team img{
+margin-top: -50px;
+
+}
+
+#team i{
+	
+	font-size:26px;
+	color: #555;
+	
+}
 
 
+#team p{
+	font-weight: 500;
+
+} 
 
 
+#team .card{
+	border-radius: 0;
+	box-shadow: 5px 5px 15px #000000;
+	transition: all 0.3s ease-in;
+	webkit-tranistion: all 0.3s ease-in;
+	moz-transition: all 0.3 ease-in;
+	
+	
+	
+}
 
+#team .card:hover{
+	background: #000000;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 5px 5px 10px #9E9E9E;
+	
+	
+	
+}
+
+#TEAM .card:hover h3, #team  .card:hover i{
+	color: #FFF; 
+	
+	
+	
+	
+}
+
+
+body {
+    background-color: #F0F1F2
+}
