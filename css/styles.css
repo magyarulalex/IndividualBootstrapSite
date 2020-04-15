@@ -92,14 +92,16 @@ header
 }
 
 
+
+
+
 .imagesrow
-{ margin-left: auto;
+
+{ 
+margin-left: auto;
  margin-right: auto;
 display: block;
 }
-
-
-
 
 
 
@@ -152,20 +154,19 @@ bann {
     background-size: cover;
     background-position: center;
     padding: 250px 0 200px;
-    background-image: url("../images/Screenshot 2020-04-15 at 7.55.38 AM.png");
+    background-image: url("../images/About Me header.png");
 
 }
 
 
 .bannerabi
 {
-	position: relative;
-	background:url("../images/hiiii.png");
-	min-height: 100vh;
-	background-size: cover;
-	background-position: center;
-	padding: 250px 0 200px;
-	
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+    background-image: url(../images/Background%20About%20Me.png);	
 }
 
 .bannerabi h2
@@ -241,5 +242,4 @@ margin-top: -50px;
 body {
     background-color: #F0F1F2
 }
-.venus {
-}
+
